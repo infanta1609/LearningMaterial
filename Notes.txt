@@ -1,0 +1,48 @@
+restart hbase master and regionserver
+https://community.cloudera.com/t5/Storage-Random-Access-HDFS/HBase-Can-t-get-master-address-from-ZooKeeper-I-am-getting/td-p/29935
+
+~> service hbase-master restart # On Master host
+~> service hbase-regionserver restart # On all RS hosts
+
+
+https://www.programcreek.com/java-api-examples/?class=org.apache.hadoop.hbase.client.Put&method=addColumn
+
+https://www.programcreek.com/java-api-examples/?ClassName=hbase&action=search&submit=Search
+
+https://stackoverflow.com/questions/14002948/command-like-sql-limit-in-hbase
+
+
+error
+
+Caused by: org.apache.hadoop.hbase.ipc.FailedServerException: This server is in the failed servers list: quickstart.cloudera/127.0.0.1:60020
+
+
+
+
+1. read hbase ingestion_schema hbase table
+	with schema_version as input
+	get the schema_data value from the result
+	
+2. with the schema_data and the payload validate them
+
+3. if successful send a flag value for the transformation code to start
+
+4. if failed get the processing report and form them into a error_json
+
+5. publish the error_json into kafka topic
+
+Validation_framework
+1. enumerate the schema based on the excel values from sharepoint
+
+2. save the final schema into ingestion_schema hbase table
+	into schema_data column
+	
+	
+put 'ingestion_schema',1,'schema_version:ver','version_3.1'
+put 'ingestion_schema',1,'schema_version:ver','version_3.1'
+
+
+create 'ingestion_schema', 'schema_version', 'schema_data', 'created_tmp', 'created_usr', lst_up_tmp', 'lst_up_usr'
+
+put 'ingestion_schema',1,'personal:per','Rajesh'
+put 'ingestion_schema',1,'professional:pro','TL'
