@@ -1,0 +1,199 @@
+Core Java : 
+
+1 What is the default value of the local variables?
+2 What is constructor?
+3 What is the purpose of default constructor?
+4 Does constructor return any value?
+5 Can you make a constructor final?
+6 What is static variable,method,block?
+7 this,super keyword?
+8 overloading/overridding
+9 oops concepts
+10 override static method?
+11 final variable/method/class
+12 final finally finalize?
+13 abstraction,dynamic binding
+14 abstract class
+15 interface
+16 abstract/interface difference
+17 package
+18 Exception Handling - Checked/Unchecked
+19 finally wihtout catch
+20 finally without execution scenario
+21 throw throws
+22 Why string objects are immutable in java?
+23 string and string buffer and string builder
+24 toString()
+25 inner class / nested class?
+26 garbage collection?
+27 i/p o/p stream
+28 serialization / Deserialization / transient / externalizable?
+29 How do I convert a numeric IP address like 192.18.97.39 into a hostname
+30 reflection
+31 wrapper class
+32 singleton class
+33 lightweight component and heavy weight component
+34 applet
+35 locale
+36 thread / multi threading
+37 wait() and sleep()
+38 run() start()
+39 daemon threads?
+40 synchronization
+41 notify() and notifyall()
+42 deadlock?
+43 arraylist and vector
+44 arraylist and linked list
+45 iterator and listIterator
+46 list and set
+47 hashSet and TreeSet
+48 Set and map
+49 Hashset and HashMap
+50 HashMap and TreeMAp
+51 HashMAp and HashTable
+52 comparable and comparator
+53 HashCode
+54 equals
+
+
+JDBC
+
+1 What is JDBC Driver?
+2 how to execute a query in jdbc
+3 JDBC API components
+4 statement prepared statement callable statement
+5 resultset / resultsetMetadata
+6 DatabaseMetaData
+7 transaction mangement in jdbc
+
+
+servelets : 
+
+1 servelet?
+2 lifecycle of servelet
+3 life cycle of method in servelet
+4 when servelet object will be created
+5 get & post
+6 What is difference between GenericServlet and HttpServlet?
+7 RequestDispacher & sendRedirect
+8 sevelet collabration
+9 interceptor 
+10 Can you call a jsp from the servlet?
+11 forward() and sendRedirect()
+12 ServletConfig and ServletContext
+13 What is Session Tracking?
+14 What are Cookies?
+15 What is difference between Cookies and HttpSession?
+16 Filter?
+17 preprocessing and post processing
+18 What is load-on-startup in servlet?
+19 deployment desciptor
+20 What is war file? How to create war file?
+21 Which event is fired at the time of project deployment and undeployment?
+22 Which event is fired at the time of session creation and destroy?
+23 Which event is fired at the time of setting, getting or removing attribute from application scope?
+
+
+jsp : 
+
+1 What is jsp?
+2 What are the life-cycle methods for a jsp?
+3 jsp implicit objects
+4 out,reqyest,response,config,session,application,pageContext,page,exception
+5 Is JSP technology extensible?
+6 scriplets / expressions
+7 handle exceptions in jsp
+8 How can we forward the request from jsp page to the servlet ?
+9 What are context initialization parameters?
+10 What are the different scope values for the <jsp:useBean> tag?
+11 What is the difference between ServletContext and PageContext?
+12 What is the difference in using request.getRequestDispatcher() and context.getRequestDispatcher()?
+13 What is JSTL?
+14 How many tags are provided in JSTL?
+15 core ,sql,xml,internationalization,funtions
+16 What are the 3 tags used in JSP bean development?
+17 
+    jsp:useBean
+    jsp:setProperty
+    jsp:getProperty
+
+Struts : 
+
+1 What is Struts? Jakarta Packages, Java Servlets, JavaBeans, ResourceBundles, and XML,action class
+2 struts 1 and 2
+3 What are the features of Struts?
+4 MVC
+5 What is interceptor?
+6 What are the life cycle methods of interceptor?
+7  What is ActionContext?
+8 What are the 5 constants of Action interface?
+9 What does params interceptor?
+10 What does execAndWait interceptor?
+11 What does modelDriven interceptor?
+12 What does validation interceptor?
+13 What are the bundled validators?
+14 What is the use of jsonValidation?
+15 Action class/servelet/mapping/form/forward
+16 Exception in struts
+17 validate() reset()
+18 session/request scope
+19 What is the different actions available in Struts?
+    ForwardAction
+    IncludeAction
+    DispatchAction
+    LookupDispatchAction
+    SwitchAction
+20 What are the various Struts tag libraries? html,bean,logical,template,nested,tiles
+21 What is the life cycle of ActionForm?
+22 What are the loop holes of Struts?
+23 ActionMapping,Global forward
+24 interceptor and filter difference
+25 action errors
+26 Struts navigation
+27 Action class,action form
+28 web.xml struts-congfig.xml
+29 execute() validate()
+30 What’s DynaActionForm?
+31 tag libraries in jsp
+32 how to move from struts1 to 2
+33 resourcebundle
+34 
+
+Hibernate : 
+
+What is hibernate?
+What is ORM?
+Internal API used by Hibernet
+JNDI,JDBC,JTA
+What are the core interfaces of Hibernate?
+What is SessionFactory?
+What is the difference between session.save() and session.persist() method?
+session? method used?
+get() and load()
+update() merge()
+states of an object in hibernate?
+Transient / Persistent / Detached
+What is HQL (Hibernate Query Language)?
+What is the difference between first level cache and second level cache?
+
+
+Spring :  
+
+What is Spring?
+Why spring?
+modules of spring framework
+What is IOC and DI?
+What are the types of IOC container in spring?
+What is the difference between BeanFactory and ApplicationContext?
+What is the difference between constructor injection and setter injection?
+What is autowiring in spring? What are the autowiring modes? no/byName/byType/constructor
+What are the different bean scopes in spring? singleton/prototype/request/session/globalsession
+Transaction management in spring?
+What are classes for spring JDBC API?
+
+    JdbcTemplate
+    SimpleJdbcTemplate
+    NamedParameterJdbcTemplate
+    SimpleJdbcInsert
+    SimpleJdbcCall
+
