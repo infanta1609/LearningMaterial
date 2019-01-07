@@ -1,0 +1,2 @@
+1.mvc1? mvc2? struts?
+2.is valuestack used to store scope attributes or actioncontext
