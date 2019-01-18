@@ -1,0 +1,14 @@
+notes needs to be taken for :
+1.abstract and interface
+2.immutable
+3.syncronization, thread-safe, race condition
+4.constructor
+5.throw and throws
+6.final, finally and finalize
+7.Reflection
+8.Assertion
+9.Exception
+10.Access modifiers
+11.Threading
+12.File io
+13.Serialization
